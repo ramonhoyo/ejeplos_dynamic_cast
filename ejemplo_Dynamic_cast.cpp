@@ -33,9 +33,6 @@ int main(){
 	abc[2]= new C;
 	abc[3]=new D;
 	
-	C* 	C_aux;
-	D* D_aux;
-
 	B* B_aux = dynamic_cast<B*>(abc[1]);//B_aux has access to full members of B class. 	
 	C* C_aux = dynamic_cast<C*>(abc[2]);//C_aux has access to full members of C class. 	
 	D* D_aux = dynamic_cast<D*>(abc[3]);//D_aux has access to full members of B class.	
