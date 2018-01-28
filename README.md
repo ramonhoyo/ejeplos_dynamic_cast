@@ -1,1 +1,1 @@
-# ejeplos_dynamic_cast
+# dynamic_cast c++ example
